@@ -1,9 +1,9 @@
 package pl.krakow.uek.pp5.creditcard.model;
 
 public class CreditCardFacade {
-    private final InMemoryCreditCardStorage storage;
+    private final CreditCardStorage storage;
 
-    public CreditCardFacade(InMemoryCreditCardStorage storage) {
+    public CreditCardFacade(CreditCardStorage storage) {
         this.storage = storage;
     }
 
